@@ -1,0 +1,122 @@
+---
+title: "Center for Customer Insights and Digital Marketing - revealjs Template"
+author: "Jarrod Griffin"
+date: "`r Sys.Date()`"
+date-format: "M/DD/YYYY"
+format:
+  revealjs:
+    logo: "logos/ccidm-cpp logo.png"
+    theme: theme.scss
+    slide-number: true
+    toc: true
+    #chalkboard: true #cannot use with self-contained
+    self-contained: true
+    width: 1280
+    height: 720
+    
+---
+
+# Slide 1: Welcome
+
+## Welcome to My Quarto + Reveal.js Demo
+
+This presentation showcases:
+
+- Custom Cal Poly Pomona-themed styling
+
+- Basic Quarto Reveal.js features
+
+- Code, plots, and more!
+
+::: notes
+Speaker notes: Use this slide to introduce yourself and the goals of the talk.
+:::
+
+# Slide 2: Agenda
+
+## Agenda
+
+1.  **Introduction to Quarto Reveal.js**
+2.  **Our Custom Theme**
+3.  **Key Features Demo**
+4.  **Conclusion & Questions**
+
+*Press the right arrow key to continue.*
+
+# Slide 3: Theming Highlights
+
+## Custom Theme Highlights
+
+- **Brand Colors**: CPP Green, Gold, and more
+- **Styled Headings**: Bold, uppercase
+- **Styled Code Blocks**: Custom background and text color
+- **Progress Bar**: Modified track and indicator colors
+- **Logo Placement**: Absolute positioning with `.slide-logo` class
+
+# Slide 4: Text and Images
+
+## Text and Image Demo
+
+Here is a paragraph of text showing our **default font** and color.  
+Link example: [Click me](https://www.cpp.edu/) to visit Cal Poly Pomona's homepage.
+
+An example image:
+
+![](logos/CPP_Horizontal_2C_Green_RGB-700px.png){width=500}
+
+# Slide 5: Lists and Fragments
+
+## Bullet Points (with Fragments)
+
+Press the right arrow (or space) to reveal each bullet in turn:
+
+::: {.incremental}
+- Item 1
+- Item 2
+- Item 3
+:::
+
+# Slide 6: Code Blocks
+
+## Code Blocks
+R
+```{r, echo=TRUE}
+# R code block example
+summary(cars)
+```
+
+Python
+```{python, echo=TRUE}
+# Python code block example
+import numpy as np
+print("Hello from Python!")
+```
+
+# Slide 8: Columns Layout
+
+## Two-Column Layout Example
+
+::: columns
+::: column
+**Column A**  
+- Some bullet  
+- Another bullet  
+:::
+
+::: column
+**Column B**  
+1. Ordered list  
+2. Another item  
+:::
+:::
+
+# Slide 9: Backgrounds and Notes 
+
+## Background & Notes {background-color="black" background-image="logos/CPP_Stacked_2C_Green_RGB-500px.png" background-size="100px" background-repeat="repeat"}
+
+- This slide has a background image.  
+
+::: notes
+**Speaker Notes**: 
+- This is a good place for private speaking prompts.
+:::
