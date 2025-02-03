@@ -130,6 +130,12 @@ Markdown and HTML are both markup languages used for creating formatted content,
 -   Great for **reproducible research/publications/documents**.
 :::
 
+------------------------------------------------------------------------
+
+@fig-compare is from [YouTube video](https://www.youtube.com/watch?v=8qR0wtJEDX4) by Christophe Dervieux, *Posit PBC*.
+
+![](images/word_LaTeX_MD.png){#fig-compare fig-align="center"}
+
 ## Quarto Work Flow Basics (Demo)
 
 -   How to start it and save it (e.g., test.qmd)
@@ -199,8 +205,8 @@ library(palmerpenguins)
 
 ------------------------------------------------------------------------
 
-::: {.callout-tip title="Coding Tips" .incremental}
- [**Be Careful**]{.red-text}: do **not** ***code*** in the **text area**.
+::: {.callout-tip .incremental title="Coding Tips"}
+[**Be Careful**]{.red-text}: do **not** ***code*** in the **text area**.
 
 -   It is possible to type the code and run in the text area.
 -   However, it won't be read and rendered into a document.
@@ -231,7 +237,6 @@ library(palmerpenguins)
 
 ::: small-medium-text
 In the following code chunk, you will learn some basic operations in R.
-
 
 ```{r}
 #| label: Basic-Operation
