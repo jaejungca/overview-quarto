@@ -422,3 +422,6 @@ format:
   docx: default
 ---
 ```
+# More resources
+
+-   [Introduction to Literate Programming](https://jaejungca.github.io/introduction-to-literate-programming-with-quarto/)
